@@ -26,10 +26,6 @@ public abstract class Athlete {
         this.points = points;
     }
 
-    public void enter(){
-
-    }
-
     public String prepare(){
         System.out.println("Athlete is preparing");
         return "Athlete is preparing";
