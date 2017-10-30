@@ -1,5 +1,7 @@
 package example.codeclan.com.athletes;
 
+import java.util.ArrayList;
+
 /**
  * Created by user on 30/10/2017.
  */
@@ -7,7 +9,7 @@ package example.codeclan.com.athletes;
 public class BoxingMatch extends Event {
 
     public BoxingMatch(){
-
+        super();
     }
 
     public void calcPoints(Boxer boxer1, Boxer boxer2){

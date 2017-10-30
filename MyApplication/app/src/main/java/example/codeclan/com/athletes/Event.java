@@ -10,12 +10,16 @@ public abstract class Event {
 
     protected ArrayList<Athlete> competitors;
 
-    public void Event(){
+    public Event(){
         this.competitors = new ArrayList<Athlete>();
     }
 
     public void enterAthletes(Athlete athlete){
-        competitors.add(athlete);
+        this.competitors.add(athlete);
+    }
+
+    public int getCompetitors() {
+        return competitors.size();
     }
 
     public void startEvent(){
