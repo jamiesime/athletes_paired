@@ -27,12 +27,12 @@ public abstract class Athlete {
     }
 
     public String prepare(){
-        System.out.println("Athlete is preparing");
+        System.out.println(getName() + " is preparing");
         return "Athlete is preparing";
     }
 
     public String compete(){
-        System.out.println("Athlete is competing");
+        System.out.println(getName() + " is competing");
         return "Athlete is competing";
     }
 
